@@ -1,0 +1,24 @@
+[Thu, 20 Jun 2024 10:45:40 +0700] [nukeviet.test] [127.0.0.1] [Notice(8): unserialize(): Error at offset 818 of 950 bytes] [FILE: /includes/core/user_functions.php] [LINE: 102] [TRACE:]
+#1  LINE: 369   FILE: /index.php
+#2  LINE: 362   FILE: /modules/news/funcs/main.php
+#3  LINE: 378   FILE: /themes/default_test/theme.php
+#4  LINE: 102   FILE: /includes/core/user_functions.php
+
+[Thu, 20 Jun 2024 10:45:40 +0700] [nukeviet.test] [127.0.0.1] [Run-time notices(8192): Automatic conversion of false to array is deprecated] [FILE: /includes/core/user_functions.php] [LINE: 103] [TRACE:]
+#1  LINE: 369   FILE: /index.php
+#2  LINE: 362   FILE: /modules/news/funcs/main.php
+#3  LINE: 378   FILE: /themes/default_test/theme.php
+
+[Thu, 20 Jun 2024 10:48:54 +0700] [nukeviet.test] [127.0.0.1] [Warning(2): file_get_contents(C:/laragon/www/nukeviet/themes/default_test/blocks\global.block_welcome.tpl): Failed to open stream: No such file or directory] [FILE: /includes/xtemplate.class.php] [LINE: 1333] [TRACE:]
+#1  LINE: 369   FILE: /index.php
+#2  LINE: 362   FILE: /modules/news/funcs/main.php
+#3  LINE: 378   FILE: /themes/default_test/theme.php
+#4  LINE: 178   FILE: /includes/core/user_functions.php
+#5  LINE: 81    FILE: /themes/default_test/blocks/global.welcome.php
+#6  LINE: 70    FILE: /themes/default_test/blocks/global.welcome.php
+#7  LINE: 395   FILE: /includes/xtemplate.class.php
+#8  LINE: 506   FILE: /includes/xtemplate.class.php
+#9  LINE: 537   FILE: /includes/xtemplate.class.php
+#10 LINE: 1365  FILE: /includes/xtemplate.class.php
+#11 LINE: 1333  FILE: /includes/xtemplate.class.php
+
